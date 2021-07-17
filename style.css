@@ -39,7 +39,15 @@ hr {
 
 .btn-toggler {
   background-color: #c06c84;
+  border-color: #c06c84;
   /* border: 1px solid white; */
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
 }
 
 /****************home section**********************/
@@ -53,24 +61,29 @@ hr {
   text-align: center;
   /* border: 5px solid #6C5B7B; */
 }
+
+
+
+.home-text-border div p {
+  font-size: 2.5rem;
+}
+
 @media only screen and (max-width: 450px) {
   .home-content {
     width: 90%;
     /* height: 100%; */
     position: relative;
-    margin: 50% auto;
+    margin: 60% auto;
     padding: 0%;
 
     text-align: center;
+    font-size: 70%;
     
   }
+  .home-text-border div p {
+    font-size: 1.5rem;
+  }
 
-
-}
-
-
-.home-text-border div p {
-  font-size: 2.5rem;
 }
 
 .home-text-border {
@@ -89,7 +102,7 @@ hr {
   /* padding: 2%; */
 }
 
-@media only screen and (max-width: 450px){
+@media only screen and (max-width: 767px){
   .home-img {
     position: relative;
     margin: auto;
@@ -261,6 +274,25 @@ hr {
   padding-top: 2%;
   margin-top: 0;
   margin-bottom: 5px;
+}
+@media only screen and (max-width:450px){
+  .footer-text {
+    width: 90%;
+    position: relative;
+    margin: 0 auto 5px auto;
+    font-size: 0.7rem;
+    text-align: center;
+    padding-top: 2%;
+    /* margin-top: 0;
+    margin-bottom: 5px; */
+  }
+  .footer-align {
+    padding-top: 10px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
 }
 .copyright {
   font-size: 12px;
