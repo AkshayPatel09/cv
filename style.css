@@ -68,7 +68,7 @@ hr {
   font-size: 2.5rem;
 }
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 500px) {
   .home-content {
     width: 90%;
     /* height: 100%; */
@@ -121,7 +121,7 @@ hr {
   border-radius: 5%;
   border: none;
 }
-@media only screen and (max-width: 450px){
+@media only screen and (max-width: 500px){
   
   .card-content {
     /* background-color:#6c5b7b2d ; */
@@ -159,7 +159,7 @@ hr {
 .eduction {
   margin: 2% 0;
 }
-@media only screen and (max-width: 450px){
+@media only screen and (max-width: 500px){
   .eduction {
     margin: 10% 0;
   }
@@ -184,7 +184,7 @@ hr {
   margin: 50px;
   text-align: center;
 }
-@media only screen and (max-width:450px){
+@media only screen and (max-width:500px){
   .skill-body {
     padding: 0%;
     margin: 4%;
@@ -275,7 +275,7 @@ hr {
   margin-top: 0;
   margin-bottom: 5px;
 }
-@media only screen and (max-width:450px){
+@media only screen and (max-width:500px){
   .footer-text {
     width: 90%;
     position: relative;
